@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .option-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s;
+        }
+        .login-btn {
+            background-color: #3498db;
+        }
+        .login-btn:hover {
+            background-color: #2980b9;
+        }
+        .register-btn {
+            background-color: #2ecc71;
+        }
+        .register-btn:hover {
+            background-color: #27ae60;
+        }
+        .welcome-message {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-message">
+            <h1>Bem-vindo ao Nosso Site</h1>
+            <p>Por favor, escolha uma das opções abaixo para continuar</p>
+        </div>
+        
+        <div class="options">
+            <a href="login.html" class="option-btn login-btn">Fazer Login</a>
+            <a href="register.html" class="option-btn register-btn">Criar Conta</a>
+        </div>
+    </div>
+</body>
+</html>
